@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 80px;
+}
+
+.contentWrapper {
+    position: relative;
+    margin: 0 20px;
+    min-height: calc(100vh - 296px);
+}
+
+.App-header {
+    background-color: #FFF;
+    height: 150px;
+    color: #f65216;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+table th, table td {
+    text-align: left;
+    width: 200px;
+}
